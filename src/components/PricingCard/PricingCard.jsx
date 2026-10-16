@@ -5,20 +5,20 @@ import Button from '../Button/Button';
 
 function PricingCard({ title, priceAmount, pricePeriod, includesText, features, buttonText, buttonVariant }) {
     return (
-        <div className="flex flex-col min-h-[380px] bg-card rounded p-4 w-80 shrink-0">
+        <div className="flex flex-col min-h-[380px] bg-card rounded-full p-4 w-160 shrink-0">
             <div className="flex flex-col">
-                <h3 className="text-[22px] leading-7 font-normal text-text-primary mb-2">
+                <h3 className="text-base leading-7 font-normal text-text-primary mb-2">
                     {title}
                 </h3>
 
-                <p className="text-xl text-text-muted inline-flex items-baseline">
+                <p className="text-sm text-text-muted inline-flex items-baseline">
                     <span className="text-[22px] font-normal text-text-muted">{priceAmount}</span>
                     {pricePeriod != null && (
                         <span className="text-sm text-text-muted">{pricePeriod}</span>
                     )}
                 </p>
 
-                <div className="mb-8">
+                <div className="mb-40">
                     <p className="text-base text-text-muted my-4">{includesText}</p>
                     <ul className="list-none p-0">
                         {features.map((feature, i) => (

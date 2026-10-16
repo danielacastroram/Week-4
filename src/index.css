@@ -35,8 +35,9 @@
   --color-cream-50:  #f7f7f4;
   --color-cream-100: #f2f1ed;
   --color-cream-200: #e6e5e0;
-  --color-cream-300: #D8D6CE;
+  --color-cream-300: #45DCF7;
   --color-ink:       #26251e;
+  --color-red:       #F74545;
   --color-ink-50:    rgba(38, 37, 30, 0.5);
 
   /* ── Semantic — purpose-based, reference primitives ──
@@ -49,7 +50,7 @@
   --color-text-secondary: var(--color-gray-500);
   --color-action-primary:          var(--color-gray-900);
   --color-action-primary-hover:    var(--color-gray-700);
-  --color-action-secondary:        var(--color-cream-200);
+  --color-action-secondary:        var(--color-red);
   --color-action-secondary-hover:  var(--color-cream-300);
 
   /* ── Component — map to semantic tokens ──
